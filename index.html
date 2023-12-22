@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/307148e55f.js"
+      crossorigin="anonymous"
+    ></script>
+    
+  </head>
+  <body>
+    <div class="calculator-container" id="calculator-container">
+      <div class="calculator-content">
+        <div class="screen-container" id="display">0</div>
+        
+        <div class="buttons-container">
+          <button id="ac" class="ac-button">
+            <i class="fa-solid fa-a"></i>
+            <i class="fa-solid fa-c"></i>
+          </button>
+          <button id="c" class="ac-button">
+            <i class="fa-solid fa-c"></i>
+          </button>
+          <button id="^" class="operator">
+            <i class="fa-solid fa-square-root-variable"></i>
+          </button>
+          <button id="%" class="operator">
+            <i class="fa-solid fa-percent"></i>
+          </button>
+          <button id="7">
+            <i class="fa-solid fa-7"></i>
+          </button>
+          <button id="8">
+            <i class="fa-solid fa-8"></i>
+          </button>
+          <button id="9">
+            <i class="fa-solid fa-9"></i>
+          </button>
+          <button id="/" class="operator">
+            <i class="fa-solid fa-divide"></i>
+          </button>
+          <button id="4">
+            <i class="fa-solid fa-4"></i>
+          </button>
+          <button id="5">
+            <i class="fa-solid fa-5"></i>
+          </button>
+          <button id="6">
+            <i class="fa-solid fa-6"></i>
+          </button>
+          <button id="*" class="button operator">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+          <button id="1">
+            <i class="fa-solid fa-1"></i>
+          </button>
+          <button id="2">
+            <i class="fa-solid fa-2"></i>
+          </button>
+          <button id="3">
+            <i class="fa-solid fa-3"></i>
+          </button>
+          <button id="-" class="operator">
+            <i class="fa-solid fa-minus"></i>
+          </button>
+          <button id="0">
+            <i class="fa-solid fa-0"></i>
+          </button>
+          <button id=".">
+            <i class="fa-solid fa-circle"></i>
+          </button>
+          <button id="igual" class="operator equals">
+            <i class="fa-solid fa-equals"></i>
+          </button>
+          <button id="+" class="operator">
+            <i class="fa-solid fa-plus"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="checkbox-container">
+      <label for="mode">Mode: </label>
+      <input type="checkbox" id="mode">
+      <label for="mode" id="lbl-switch"></label>
+    </div>
+    
+    <script src="js/index.js"></script>
+  </body>
+</html>
